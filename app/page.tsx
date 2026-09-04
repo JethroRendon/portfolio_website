@@ -631,7 +631,7 @@ export default function Home() {
         </nav>
         <div className="top-actions">
           <Button
-            className="theme-button"
+            className="theme-button replay-button"
             variant="outline"
             size="icon"
             onClick={replayHello}
@@ -665,7 +665,7 @@ export default function Home() {
             variant="outline"
             size="icon"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Open navigation"
+            aria-label={menuOpen ? 'Close navigation' : 'Open navigation'}
             aria-expanded={menuOpen}
           >
             {menuOpen ? <X /> : <Menu />}

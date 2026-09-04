@@ -2570,7 +2570,8 @@ button {
     grid-template-columns: 1fr auto;
   }
   .nav-pill,
-  .contact-button {
+  .contact-button,
+  .replay-button {
     display: none;
   }
   .menu-button {
