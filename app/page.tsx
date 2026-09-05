@@ -621,7 +621,7 @@ export default function Home() {
       <header className="topbar">
         <a className="wordmark" href="#top" aria-label="Back to the top">
           <span className="wordmark-dot" />
-          YN / 26
+          JR / 04
         </a>
         <nav className="nav-pill" aria-label="Primary navigation">
           <a href="#work">Work</a>
@@ -695,8 +695,8 @@ export default function Home() {
           <p className="eyebrow">
             <span /> Portfolio / selected realities
           </p>
-          <h1 className="glitch-title" data-text="YOUR NAME">
-            <span>YOUR</span> <span>NAME</span>
+          <h1 className="glitch-title" data-text="JETHRO RENDON">
+            <span>JETHRO</span> <span>RENDON</span>
           </h1>
           <p className="hero-role">
             Creative developer <em>&amp;</em> digital explorer.
@@ -735,13 +735,19 @@ export default function Home() {
             <Turtle aria-hidden="true" />
           </div>
           <div className="profile-card">
-            <div className="profile-photo" aria-hidden="true">
-              <span>YN</span>
-              <i aria-hidden="true" />
+            <div className="profile-photo">
+              <Image
+                src="/tarts.jpeg"
+                alt="Portrait of Jethro Rendon"
+                fill
+                sizes="(max-width: 720px) 46vw, 244px"
+                className="profile-photo-image"
+                loading="eager"
+              />
             </div>
             <div className="profile-card-copy">
               <span className="profile-kicker">Profile / 01</span>
-              <strong>YOUR NAME</strong>
+              <strong>JETHRO RENDON</strong>
               <span className="profile-note">
                 Creative developer
                 <br />
@@ -1230,7 +1236,7 @@ export default function Home() {
           </div>
         </section>
         <div className="footer-meta">
-          <span>© 2026 / YOUR NAME</span>
+          <span>© 2026 / JETHRO RENDON</span>
           <span>Designed with curiosity · built with care</span>
           <a href="#top">
             Back to top <ArrowUpRight />

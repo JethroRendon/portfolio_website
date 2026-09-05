@@ -633,11 +633,11 @@ button {
   background-size: 22px 22px;
 }
 .profile-photo::before {
-  content: '';
-  position: absolute;
-  inset: 12%;
-  border: 1px dashed rgba(36, 75, 214, 0.55);
-  border-radius: 50%;
+  display: none;
+}
+.profile-photo-image {
+  object-fit: cover;
+  object-position: center 25%;
 }
 .profile-photo span {
   position: relative;

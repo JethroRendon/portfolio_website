@@ -10,7 +10,7 @@ from reportlab.pdfgen import canvas
 from reportlab.platypus import Paragraph
 
 
-OUTPUT = Path(__file__).resolve().parents[1] / "output" / "pdf" / "your-name-resume.pdf"
+OUTPUT = Path(__file__).resolve().parents[1] / "output" / "pdf" / "jethro-rendon-resume.pdf"
 
 INK = HexColor("#111411")
 PAPER = HexColor("#F4F1E8")
@@ -69,8 +69,8 @@ def build():
     width, height = A4
     margin = 17 * mm
 
-    pdf.setTitle("YOUR NAME - Resume")
-    pdf.setAuthor("YOUR NAME")
+    pdf.setTitle("Jethro Rendon - Resume")
+    pdf.setAuthor("Jethro Rendon")
     pdf.setFillColor(PAPER)
     pdf.rect(0, 0, width, height, stroke=0, fill=1)
 
@@ -83,7 +83,7 @@ def build():
 
     pdf.setFillColor(PAPER)
     pdf.setFont("Helvetica-Bold", 31)
-    pdf.drawString(margin, height - 31 * mm, "YOUR NAME")
+    pdf.drawString(margin, height - 31 * mm, "JETHRO RENDON")
     pdf.setFont("Helvetica", 14)
     pdf.drawString(margin, height - 41 * mm, "Creative Developer + Frontend Engineer")
     pdf.setFillColor(LIME)
